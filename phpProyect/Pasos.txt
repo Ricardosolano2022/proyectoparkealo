@@ -1,0 +1,6 @@
+-Copiar este contenido a la carpeta de xammp/htdocs/nombre_proyecto
+-en phpmyadmin crear la bd con el nombre parquelo y ejecutar el contenido
+del query en el archivo parquealo.sql para crear las tablas y campos de la bd.
+
+-En el navegador ingresar a http://localhost/nombre_proyecto/registro.php
+y ya carga la pagina principal.
