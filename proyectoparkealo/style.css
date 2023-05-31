@@ -1,0 +1,110 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+ }
+ 
+ header{
+    background: linear-gradient(#fefefe, #888888);
+    padding:20px 0;
+ }
+ 
+ .caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+ }
+ nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+ }
+ nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+ }
+
+ nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+ }
+
+ .banner{
+    background: linear-gradient(#888888, #fefefe);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .titulo-prin{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    color: rgba(0,0,0,0.5);
+ }
+
+ .mapa{
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+ }
+ 
+ .mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+ }
+ 
+ .mapa-con{
+    width: 940px;
+    margin: 0 auto;
+ }
+
+ .datos{
+   background: linear-gradient( #888888, #fefefe);
+ }
+ .container {
+   width: 600px;
+   margin: 0 auto;
+   padding-top: 50px;
+ }
+ 
+ form {
+   background: linear-gradient(#fefefe, #888888);
+   padding: 50px 60px;
+   border-radius: 5px;
+ }
+ 
+ h2 {
+   text-align: center;
+   font-weight: bold;
+ }
+ 
+ .input-group {
+   margin-bottom: 15px;
+ }
+ 
+ .input-group label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+ }
+ 
+ .input-group input {
+   width: 100%;
+   padding: 5px;
+   font-size: 16px;
+   font-weight: bold;
+   border-radius: 3px;
+   border: 1px solid #ccc;
+ }
+ 
+ button {
+   width: 150px;
+   padding: 10px;
+   font-size: 16px;
+   background: #0c28b0;
+   color: white;
+   border-radius: 3px;
+   cursor: pointer;
+ }
